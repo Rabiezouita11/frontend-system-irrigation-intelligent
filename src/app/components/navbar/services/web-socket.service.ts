@@ -8,7 +8,7 @@ export class WebSocketService {
   private socket$!: WebSocketSubject<any>;
 
   constructor() {
-    this.socket$ = webSocket('ws://localhost:5000'); // Replace with your WebSocket server URL
+    this.socket$ = webSocket('ws://https://backend-system-irrigation-intelligent.onrender.com'); // Replace with your WebSocket server URL
   }
   getSocket() {
     return this.socket$;
