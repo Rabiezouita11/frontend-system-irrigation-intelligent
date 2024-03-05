@@ -10,7 +10,6 @@ import { WeatherService } from 'src/app/components/navbar/services/weather.servi
 import { catchError, throwError } from 'rxjs';
 import { ToastrService } from 'ngx-toastr';
 import { MatDialog } from '@angular/material/dialog';
-import * as Chart from 'chart.js';
 import { NgZone } from '@angular/core';
 
 const SCRIPT_PATH_LIST = [
